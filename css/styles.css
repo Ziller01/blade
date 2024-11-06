@@ -1,0 +1,101 @@
+* {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffc800;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffc80060
+}
+
+.scroll-margin {
+  scroll-margin-top: 80px;
+}
+
+.text-outline {
+  text-shadow: 1px 1px 0 #ffc800, -1px 1px 0 #ffc800, 1px -1px 0 #ffc800, -1px -1px 0 #ffc800;
+}
+
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./fonts/Quicksand-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Changa";
+  src: url("./fonts/Changa-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Luckiest Guy";
+  src: url("./fonts/LuckiestGuy-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url("./fonts/Caveat-VariableFont_wght.ttf");
+}
+
+.fonts-1 {
+  font-family: 'Quicksand';
+}
+.fonts-2 {
+  font-family: 'Changa';
+}
+
+.fonts-luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fonts-caveat-400 {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fonts-caveat-500 {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fonts-caveat-600 {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fonts-caveat-700 {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Caveat";
+}
