@@ -32,20 +32,25 @@
 @font-face {
   font-family: "Quicksand";
   src: url("./fonts/Quicksand-VariableFont_wght.ttf");
+  font-display: swap;
 }
+
 @font-face {
   font-family: "Changa";
   src: url("./fonts/Changa-VariableFont_wght.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Luckiest Guy";
   src: url("./fonts/LuckiestGuy-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Caveat";
   src: url("./fonts/Caveat-VariableFont_wght.ttf");
+  font-display: swap;
 }
 
 .fonts-1 {
